@@ -37,8 +37,8 @@ services:
     restart: always
       
     environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=pass
+      - POSTGRES_USER=evoUser
+      - POSTGRES_PASSWORD=HolaevoDB1!
       - POSTGRES_DB=evolution
       - POSTGRES_HOST_AUTH_METHOD=trust
     volumes:
