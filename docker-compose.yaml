@@ -6,7 +6,6 @@ services:
     depends_on:
       - redis
       - postgres
-    ports:
       
     volumes:
       - evolution_instances:/evolution/instances
