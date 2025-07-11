@@ -13,6 +13,8 @@ services:
       - evolution-net
     env_file:
       - .env
+    expose:
+      - "8080"
 
   redis:
     image: redis:latest
