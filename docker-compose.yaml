@@ -54,5 +54,5 @@ networks:
   evolution-net:
     name: evolution-net
     driver: bridge
-  coolify-proxy:
+  coolify:
     external: true
